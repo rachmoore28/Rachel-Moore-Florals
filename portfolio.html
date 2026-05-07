@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Rachel Moore Floral Design</title>
+  <link rel="stylesheet" href="styles/scratch.css">
+  <style>
+    .portfolio-images{
+      column-count:3;
+      column-gap:12px;
+      margin-top:20px;
+    }
+    .portfolio-images figure{
+      margin:0;
+      break-inside:avoid;
+      margin-bottom:12px;
+    }
+    .portfolio-images img{
+      width:100%;
+      height:auto;
+      border-radius:0;
+      display:block;
+    }
+    @media (max-width:980px){
+      .portfolio-images{column-count:2}
+    }
+    @media (max-width:620px){
+      .portfolio-images{column-count:1}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div>
+        <span class="eyebrow">Portfolio</span>
+        <h1>Rachel Moore Floral Design</h1>
+      </div>
+      <nav>
+        <a class="secondary" href="index.html">Home</a>
+        <a class="secondary" href="about.html">About Me</a>
+        <a class="secondary" href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <section class="panel">
+      <h2>My Portfolio</h2>
+      <p class="lead">Here is some of my work! There are a mix of arrangements from weddings, dances, and random projects. If you have any questions about pricing or availability, feel free to reach out. You can find my contact information on the About Me page.</p>
+      <div class="portfolio-images">
+        <figure><img src="image/bout1pink.JPG" alt="Pink boutonniere" loading="lazy" /></figure>
+        <figure><img src="image/bout2white.jpg" alt="White boutonniere" loading="lazy" /></figure>
+        <figure><img src="image/bqblackribbon.jpg" alt="Bouquet with black ribbon" loading="lazy" /></figure>
+        <figure><img src="image/bqcloseup.JPG" alt="Close-up bouquet" loading="lazy" /></figure>
+        <figure><img src="image/bqpinkandorange.png" alt="Pink and orange bouquet" loading="lazy" /></figure>
+        <figure><img src="image/bqwhite.jpg" alt="White bouquet" loading="lazy" /></figure>
+        <figure><img src="image/cake.jpeg" alt="Floral cake arrangement" loading="lazy" /></figure>
+        <figure><img src="image/ikebana.jpg" alt="Ikebana arrangement" loading="lazy" /></figure>
+        <figure><img src="image/protea.JPG" alt="Protea arrangement" loading="lazy" /></figure>
+        <figure><img src="image/sunsetcenter.jpeg" alt="Sunset centerpiece" loading="lazy" /></figure>
+        <figure><img src="image/whitebout.jpg" alt="White boutonniere detail" loading="lazy" /></figure>
+        <figure><img src="image/whiteinline.jpg" alt="Inline white arrangement" loading="lazy" /></figure>
+        <figure><img src="image/whitevase.jpg" alt="White vase arrangement" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <p class="footer"><a href="index.html">Back to opening page</a></p>
+  </div>
+</body>
+</html>
